@@ -1,0 +1,45 @@
+body {
+    color: black;
+    background-color: #c33838;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    padding: 16px;
+    list-style-type:none;
+    text-decoration: underline;
+}
+.elementos {
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+}
+.pudim {
+    background-color: burlywood;
+    width: 315px;
+    height: 750px;
+}
+.queijadinha {
+    background-color: burlywood;
+    width: 315px;
+    height: 750px;
+}
+.torta {
+    background-color: burlywood;
+    width: 315px;
+    height: 750px;
+}
+li {
+    text-align: start;
+}
+a {
+   list-style: none;
+   text-align: center;
+   display: flex;
+}
+footer {
+    font-size: small;
+    background-color: black;
+    text-align: center;
+    color: white;
+}

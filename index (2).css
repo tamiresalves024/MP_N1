@@ -1,0 +1,50 @@
+header {
+    padding: 16px;
+    list-style-type:none;
+    text-decoration: underline;
+}
+body {
+    color: black;
+    background-color: #c33838;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+padding: 8px;
+}
+.register-button button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: burlywood;
+}
+.register-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+h1::after {
+    content: '';
+    display: block;
+    width: 8rem;
+    height: 0.3rem;
+    background-color: burlywood;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+.input-group {
+    display: contents;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.input-box {
+    flex-direction: column;
+    margin-bottom: 1.1rem
+}
+footer {
+    font-size: small;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
